@@ -1,36 +1,12 @@
 # Concepto de lógica
 
-La lógica, en su sentido más básico, se ocupa de las reglas del razonamiento válido. Es el estudio de cómo debemos pensar para llegar a conclusiones correctas. Algunos autores importantes en este campo incluyen a Aristóteles, quien es considerado el padre de la lógica occidental, y Gottlob Frege, cuyo trabajo sentó las bases de la lógica matemática moderna.
+La lógica, en su sentido más básico, se ocupa de las reglas del razonamiento válido. Es el estudio de cómo debemos pensar para llegar a conclusiones correctas. Algunos autores importantes en este campo incluyen a [Aristóteles](), quien es considerado el padre de la lógica occidental, y [Gottlob Frege](), cuyo trabajo sentó las bases de la lógica matemática moderna.
 
 ## Introducción al concepto de lógica:
 La lógica es una disciplina filosófica que estudia los principios del razonamiento válido y la inferencia correcta. Se centra en cómo las premisas conducen a conclusiones de manera coherente y consistente. Este campo de estudio se remonta a los primeros filósofos griegos como Parménides y Aristóteles, quienes desarrollaron sistemas para evaluar la validez de los argumentos. En la era moderna, autores como Gottlob Frege, con su obra "Begriffsschrift" (1879), y Bertrand Russell y Alfred North Whitehead, con su obra monumental "Principia Mathematica" (1910-1913), sentaron las bases de la lógica matemática y simbólica.
 
 ## Desarrollo histórico:
-
-### Aristóteles (384-322 a.C.)
-- Considerado el padre de la lógica formal.
-- Desarrolló los fundamentos de la lógica aristotélica en su obra "Organon".
-- Propuso los primeros sistemas de silogismo, formas de razonamiento deductivo.
-
-### Leibniz (1646-1716)
-- Hizo importantes contribuciones al desarrollo del cálculo infinitesimal y la lógica.
-- Introdujo el concepto de lógica simbólica y desarrolló una notación formal.
-
-### George Boole (1815-1864)
-- Trabajó en el álgebra booleana, estableciendo un sistema algebraico para el razonamiento lógico.
-- Su obra "An Investigation of the Laws of Thought" es un hito en la lógica simbólica.
-
-### Gottlob Frege (1848-1925)
-- Uno de los fundadores de la lógica matemática y la filosofía analítica.
-- Introdujo el concepto de funciones y predicados en "Begriffsschrift".
-
-### Bertrand Russell (1872-1970) y Alfred North Whitehead (1861-1947)
-- Escribieron "Principia Mathematica", buscando fundamentar la matemática en la lógica.
-- Desarrollaron la teoría de tipos y enfrentaron el problema de la paradoja en la teoría de conjuntos.
-
-### Ludwig Wittgenstein (1889-1951)
-- Contribuyó a la filosofía del lenguaje y la lógica.
-- Propuso una teoría de la representación lingüística en "Tractatus Logico-Philosophicus".
+<demo-component/>
 
 
 ## Lógica contemporánea:
