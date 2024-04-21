@@ -9,7 +9,7 @@ module.exports = {
   dest:"docs",
   base:"/logica-epistemologia/",
 
-  title: 'Lógica Espistemologia',
+  title: 'Lógica',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */

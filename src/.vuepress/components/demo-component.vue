@@ -32,14 +32,14 @@ export default {
         ]},
         { date: "George Boole (1815-1864)", description: [
           'Trabajó en el álgebra booleana, estableciendo un sistema algebraico para el razonamiento lógico.',
-          'Su obra "An Investigation of the Laws of Thought" es un hito en la lógica simbólica.'
+          'Su obra "An Investigation of the Laws of Thought" (Una investigación de las leyes del pensamiento) es un hito en la lógica simbólica.'
         ]},
         { date: "Gottlob Frege (1848-1925)", description: [
           "Uno de los fundadores de la lógica matemática y la filosofía analítica.",
-          'Introdujo el concepto de funciones y predicados en "Begriffsschrift"'
+          'Introdujo el concepto de funciones y predicados en "Begriffsschrift" (Escritura conceptual)'
         ]},
         { date: "Bertrand Russell (1872-1970) y Alfred North Whitehead (1861-1947)", description: [
-          'Escribieron "Principia Mathematica", buscando fundamentar la matemática en la lógica.',
+          'Escribieron "Principia Mathematica" (Principios matemáticos), buscando fundamentar la matemática en la lógica.',
           'Desarrollaron la teoría de tipos y enfrentaron el problema de la paradoja en la teoría de conjuntos.'
         ]},
         { date: "Ludwig Wittgenstein (1889-1951)", description: [
