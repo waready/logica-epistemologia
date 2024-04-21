@@ -131,18 +131,6 @@ En la teoría de conjuntos, los elementos individuales que componen un conjunto 
 | Subconjunto     | Un conjunto \( A \) es un subconjunto de otro conjunto \( B \) si todos los elementos de \( A \) también están en \( B \).                                    |
 
 Estos son solo algunos de los conceptos básicos en la teoría de conjuntos que se utilizan para definir y manipular conjuntos en diversos contextos matemáticos.
-<!-- 
-### Relación entre la lógica de conjuntos y otras áreas de las matemáticas
-
-La lógica de conjuntos es fundamental en muchas áreas de las matemáticas, ya que proporciona un marco formal para la definición y manipulación de estructuras abstractas. Algunas de las áreas de las matemáticas en las que la lógica de conjuntos desempeña un papel importante incluyen:
-
-- **Álgebra**: En álgebra abstracta, los grupos, anillos y cuerpos se definen en términos de conjuntos y operaciones binarias.
-- **Análisis matemático**: En análisis matemático, los conjuntos se utilizan para definir conceptos como límites, derivadas e integrales.
-- **Geometría**: En geometría, los conjuntos se utilizan para definir objetos geométricos como puntos, líneas y figuras sólidas, así como para estudiar sus propiedades y relaciones.
-
-Además, la teoría de conjuntos proporciona la base para otras áreas de las matemáticas, como la teoría de números, la topología y la teoría de grafos.
-
-En resumen, la lógica de conjuntos es un componente fundamental de las matemáticas, proporcionando un marco formal para la definición y manipulación de conjuntos y estableciendo la base para muchas otras áreas de las matemáticas. La comprensión de los fundamentos de la teoría de conjuntos es esencial para abordar problemas matemáticos en una variedad de contextos. -->
 
 ### Relaciones y funciones
 

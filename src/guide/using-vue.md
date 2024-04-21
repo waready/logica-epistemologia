@@ -106,6 +106,7 @@ La lógica formal se centra en la estructura lógica de los argumentos, sin cons
 
 <!-- En resumen, la lógica simbólica y la lógica formal comparten un enfoque en el uso de símbolos y reglas formales para el análisis lógico, pero la lógica simbólica tiende a ser más amplia y abarcativa, mientras que la lógica formal se enfoca específicamente en la estructura lógica de los argumentos. -->
 
+
 ## Aplicaciones prácticas:
 
 ::: details Filosofía
