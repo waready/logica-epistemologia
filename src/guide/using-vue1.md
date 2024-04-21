@@ -10,6 +10,7 @@ El principio de identidad es uno de los principios fundamentales de la lógica y
 - **Base del razonamiento lógico:** En la lógica, el principio de identidad es una de las leyes fundamentales que guían la inferencia válida. Es esencial para la formulación de argumentos lógicos y la demostración de teoremas.
 - **Establecimiento de conceptos:** En filosofía, el principio de identidad es crucial para el análisis conceptual y la definición de términos. Permite distinguir entre diferentes conceptos y establecer límites claros entre ellos.
 - **Fundamento de la ontología:** En la ontología, el principio de identidad es fundamental para la investigación de la naturaleza del ser y la identidad de las entidades. Ayuda a definir qué hace que una cosa sea lo que es y no otra cosa. -->
+<img :src="$withBase('/img/02.jpg')" class="center">
 
 ### Interpretaciones y críticas del principio de identidad
 
@@ -23,6 +24,8 @@ El principio de identidad es uno de los principios fundamentales de la lógica y
 ## 2 Principio de no contradicción
 
 El principio de no contradicción establece que una proposición no puede ser verdadera y falsa al mismo tiempo y en el mismo sentido. En otras palabras, una afirmación y su negación no pueden ser simultáneamente verdaderas. Este principio es uno de los pilares fundamentales de la lógica y la filosofía, proporcionando una base para el razonamiento consistente y la coherencia del pensamiento.
+
+<img :src="$withBase('/img/03.jpeg')" class="center">
 
 ### Defensa del principio de no contradicción
 
@@ -43,6 +46,8 @@ El principio de no contradicción establece que una proposición no puede ser ve
 
 El principio del tercero excluido es un principio lógico que establece que una afirmación es verdadera o su negación lo es, sin posibilidad de una tercera opción. Es decir, cualquier proposición es verdadera o falsa, no hay un estado intermedio. Este principio es fundamental en la lógica clásica y se utiliza para determinar la validez de argumentos y establecer la veracidad de proposiciones.
 
+<img :src="$withBase('/img/04.jpg')" style="width:350px"  class="center">
+
 ### Explicación y defensa del principio del tercero excluido
 
 - **Claridad lógica:** El principio del tercero excluido proporciona claridad y precisión en el razonamiento lógico al garantizar que una afirmación o su negación sean exhaustivas y excluyentes. Esto evita la ambigüedad y permite tomar decisiones definidas sobre la verdad o falsedad de una proposición.
@@ -61,6 +66,8 @@ El principio del tercero excluido es un principio lógico que establece que una 
 ## 4 Principio de inferencia
 
 El principio de inferencia se refiere a la capacidad de extraer conclusiones lógicas a partir de premisas dadas. En la lógica, hay varias formas de inferencia que permiten llegar a conclusiones válidas a partir de premisas verdaderas. Estas formas de inferencia son fundamentales en el razonamiento lógico y se aplican en una variedad de contextos, desde matemáticas y ciencias naturales hasta argumentos filosóficos y debates cotidianos.
+
+<img :src="$withBase('/img/05.jpg')" style="width:300px" class="center">
 
 ### Formas de inferencia lógica
 

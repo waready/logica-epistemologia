@@ -72,8 +72,10 @@ Es el estudio de cómo debemos pensar🤔 para llegar a conclusiones correctas�
          Medio (M): Hace algunas preguntas a sus compañeros.
          Bajo (B): Hace preguntas frecuentes a sus compañeros.
 
-         -Regla 1: SI (Clases es Alto) Y (Compañerismo es Alto) ENTONCES Es Bueno.
-         -Regla 2: SI (Clases es Bajo) Y (Compañerismo es Bajo) ENTONCES Es Malo.
+         -Regla 1: SI (Clases es Alto) Y (Compañerismo es Alto) 
+         ENTONCES Es Bueno 🙂👍.
+         -Regla 2: SI (Clases es Bajo) Y (Compañerismo es Bajo) 
+         ENTONCES Es Malo 😡👎.
 
       Ahora, evaluemos la situación de nuestro compañero específico. Supongamos que este compañero hace pocas preguntas a sus compañeros en clase presencial y opta principalmente por clases virtuales.
 
