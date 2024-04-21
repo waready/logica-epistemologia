@@ -75,7 +75,7 @@ En la lógica de predicados, se utilizan cuantificadores para expresar la extens
 
 - **Cuantificador existencial (`∃`)**: Se lee como "existe" o "hay algún". Indica que al menos un elemento en el dominio satisface una afirmación. Por ejemplo, `∃x P(x)` significa "Existe al menos un x tal que P(x) es verdadero".
 
-Las variables en la lógica de predicados representan elementos individuales en el dominio sobre los cuales se cuantifica. Por ejemplo, en la afirmación `∀x P(x)`, `x` es una variable que puede tomar valores del dominio sobre el cual se está cuantificando.
+Las variables en la lógica de predicados representan elementos individuales en el dominio sobre los cuales se cuantifica.   
 
 En resumen, la lógica de predicados de primer orden es una extensión de la lógica proposicional que permite la expresión de afirmaciones más complejas sobre objetos y relaciones entre ellos. Los cuantificadores y variables son elementos clave de esta lógica, permitiendo la cuantificación sobre conjuntos de objetos y la expresión de afirmaciones generales o existenciales.
 
