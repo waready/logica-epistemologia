@@ -11,11 +11,31 @@ Una proposición es una afirmación que es verdadera o falsa, pero no ambas. Por
 
 En la lógica proposicional, se utilizan símbolos para representar proposiciones simples y conectivas para formar proposiciones más complejas. Los símbolos básicos suelen ser letras minúsculas como `p`, `q`, `r`, etc., que representan proposiciones simples. Las principales conectivas lógicas incluyen:
 
-- **Negación (`¬`)**: Indica la negación de una proposición. Por ejemplo, `¬p` significa "no `p`".
+<!-- - **Negación (`¬`)**: Indica la negación de una proposición. Por ejemplo, `¬p` significa "no `p`".
 - **Conjunción (`∧`)**: Representa la unión de dos proposiciones. Por ejemplo, `p ∧ q` significa "`p` y `q`".
 - **Disyunción (`∨`)**: Representa la disyunción de dos proposiciones. Por ejemplo, `p ∨ q` significa "`p` o `q`".
 - **Implicación (`→`)**: Indica una implicación lógica. Por ejemplo, `p → q` significa "si `p`, entonces `q`".
-- **Bicondicional (`↔`)**: Indica una doble implicación. Por ejemplo, `p ↔ q` significa "`p` si y solo si `q`".
+- **Bicondicional (`↔`)**: Indica una doble implicación. Por ejemplo, `p ↔ q` significa "`p` si y solo si `q`". -->
+
+| Operador     | Significado                                            |
+|--------------|--------------------------------------------------------|
+| Negación (¬) | Indica la negación de una proposición. Por ejemplo, ¬p significa "no p". |
+| Conjunción (∧) | Representa la unión de dos proposiciones. Por ejemplo, p ∧ q significa "p y q". |
+| Disyunción (∨) | Representa la disyunción de dos proposiciones. Por ejemplo, p ∨ q significa "p o q". |
+| Implicación (→) | Indica una implicación lógica. Por ejemplo, p → q significa "si p, entonces q". |
+| Bicondicional (↔) | Indica una doble implicación. Por ejemplo, p ↔ q significa "p si y solo si q". |
+
+
+| Proposición   | Significado                    |
+|---------------|--------------------------------|
+| p             | "Hace sol hoy."                |
+| q             | "Voy a la playa."              |
+| ¬p            | "No hace sol hoy."            |
+| p ∧ q         | "Hace sol hoy y voy a la playa." |
+| p ∨ q         | "Hace sol hoy o voy a la playa." |
+| p → q         | "Si hace sol hoy, entonces voy a la playa." |
+| p ↔ q         | "Hace sol hoy si y solo si voy a la playa." |
+
 
 ### Semántica de la lógica proposicional
 
@@ -23,13 +43,18 @@ La semántica de la lógica proposicional se centra en asignar significado a las
 
 ### Métodos de prueba y tablas de verdad
 
+::: details imagen
+<img :src="$withBase('/img/06.jpg')" class="center">
+:::
+
+
+::: details imagen real
+<img :src="$withBase('/img/07.png')" class="center">
+:::
+
 Los métodos de prueba en la lógica proposicional se utilizan para demostrar la validez de argumentos o fórmulas lógicas. Uno de los métodos más comunes es la construcción de tablas de verdad. En una tabla de verdad, se enumeran todas las posibles combinaciones de valores de verdad para las variables proposicionales y se evalúa la verdad de la expresión lógica en cada caso. Si la expresión es verdadera en todas las filas de la tabla, se considera válida.
 
-Por ejemplo, para probar la validez de la implicación `p → (q → p)`, se construiría una tabla de verdad con las columnas para `p`, `q`, `q → p`, y `p → (q → p)`. Si la última columna de la tabla es verdadera para todas las filas, la fórmula es válida.
-
-Los métodos de prueba también incluyen reglas de inferencia como el modus ponens y el modus tollens, que permiten deducir nuevas proposiciones a partir de proposiciones previamente establecidas.
-
-En resumen, la lógica proposicional es una herramienta fundamental para el análisis de proposiciones y argumentos. Tanto la sintaxis como la semántica de la lógica proposicional son cruciales para entender cómo se formulan y evalúan las expresiones lógicas, mientras que los métodos de prueba, como las tablas de verdad y las reglas de inferencia, nos permiten demostrar la validez de argumentos y fórmulas lógicas.
+<!-- En resumen, la lógica proposicional es una herramienta fundamental para el análisis de proposiciones y argumentos. Tanto la sintaxis como la semántica de la lógica proposicional son cruciales para entender cómo se formulan y evalúan las expresiones lógicas, mientras que los métodos de prueba, como las tablas de verdad y las reglas de inferencia, nos permiten demostrar la validez de argumentos y fórmulas lógicas. -->
 
 
 ## Lógica de predicados
@@ -52,10 +77,6 @@ En la lógica de predicados, se utilizan cuantificadores para expresar la extens
 
 Las variables en la lógica de predicados representan elementos individuales en el dominio sobre los cuales se cuantifica. Por ejemplo, en la afirmación `∀x P(x)`, `x` es una variable que puede tomar valores del dominio sobre el cual se está cuantificando.
 
-### Aplicaciones de la lógica de predicados
-
-La lógica de predicados es ampliamente utilizada en diversos campos, incluyendo la matemática, la informática, la lingüística y la filosofía. Permite la formalización de teoremas matemáticos, la representación de conocimiento en inteligencia artificial, el análisis semántico del lenguaje natural y la formalización de argumentos filosóficos, entre otros usos.
-
 En resumen, la lógica de predicados de primer orden es una extensión de la lógica proposicional que permite la expresión de afirmaciones más complejas sobre objetos y relaciones entre ellos. Los cuantificadores y variables son elementos clave de esta lógica, permitiendo la cuantificación sobre conjuntos de objetos y la expresión de afirmaciones generales o existenciales.
 
 ## Lógica modal
@@ -66,11 +87,12 @@ La lógica modal es una extensión de la lógica proposicional y de predicados q
 
 La lógica modal se centra en el análisis de proposiciones que expresan modalidades, es decir, formas en las que las cosas podrían ser. Los operadores modales más comunes son:
 
-- **Necesidad**: Indica que una proposición es necesariamente verdadera, es decir, que no podría haber sido de otra manera.
-- **Posibilidad**: Indica que una proposición es posible, es decir, que podría ser verdadera en al menos alguna circunstancia.
-- **Imposibilidad**: Indica que una proposición es imposible, es decir, que no puede ser verdadera bajo ninguna circunstancia.
+| Término       | Significado                                                    |
+|---------------|----------------------------------------------------------------|
+| Necesidad     | Indica que una proposición es necesariamente verdadera, es decir, que no podría haber sido de otra manera. |
+| Posibilidad   | Indica que una proposición es posible, es decir, que podría ser verdadera en al menos alguna circunstancia. |
+| Imposibilidad | Indica que una proposición es imposible, es decir, que no puede ser verdadera bajo ninguna circunstancia. |
 
-Estos operadores modales permiten expresar y razonar sobre diferentes estados de los mundos posibles, lo que hace que la lógica modal sea útil en diversos campos, como la filosofía, la informática y la inteligencia artificial.
 
 ### Ejemplos de operadores modales en la lógica modal
 
@@ -90,7 +112,7 @@ Estos operadores modales permiten expresar y razonar sobre diferentes estados de
 
 La lógica modal se utiliza en una variedad de campos para modelar y razonar sobre sistemas complejos. En filosofía, se emplea para analizar conceptos como la necesidad y la posibilidad en ética, metafísica y epistemología. En informática, se aplica en la verificación de programas y la inteligencia artificial para modelar estados del mundo y tomar decisiones basadas en ellos.
 
-En resumen, la lógica modal es una extensión de la lógica estándar que permite expresar y razonar sobre conceptos modales como la necesidad, la posibilidad y la imposibilidad. Los operadores modales son herramientas poderosas para analizar sistemas complejos y tomar decisiones informadas en una variedad de campos.
+<!-- En resumen, la lógica modal es una extensión de la lógica estándar que permite expresar y razonar sobre conceptos modales como la necesidad, la posibilidad y la imposibilidad. Los operadores modales son herramientas poderosas para analizar sistemas complejos y tomar decisiones informadas en una variedad de campos. -->
 
 ## Lógica de conjuntos
 
@@ -100,14 +122,16 @@ La lógica de conjuntos es una rama de las matemáticas que estudia conjuntos, c
 
 En la teoría de conjuntos, los elementos individuales que componen un conjunto se denominan miembros o elementos del conjunto. Los conjuntos se pueden describir de diversas formas, incluyendo la enumeración de sus elementos o mediante una propiedad que caracteriza a sus miembros. Algunos conceptos fundamentales en la teoría de conjuntos incluyen:
 
-- **Unión**: La unión de dos conjuntos \( A \) y \( B \) es el conjunto que contiene todos los elementos que pertenecen a \( A \), a \( B \), o a ambos.
-- **Intersección**: La intersección de dos conjuntos \( A \) y \( B \) es el conjunto que contiene todos los elementos que pertenecen tanto a \( A \) como a \( B \).
-- **Complemento**: El complemento de un conjunto \( A \) con respecto a un conjunto universal \( U \) es el conjunto de todos los elementos en \( U \) que no están en \( A \).
-- **Conjunto vacío**: El conjunto vacío, denotado por \( \emptyset \) o \(\{\}\), es el conjunto que no contiene ningún elemento.
-- **Subconjunto**: Un conjunto \( A \) es un subconjunto de otro conjunto \( B \) si todos los elementos de \( A \) también están en \( B \).
+| Término         | Significado                                                                                                                                               |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Unión           | La unión de dos conjuntos \( A \) y \( B \) es el conjunto que contiene todos los elementos que pertenecen a \( A \), a \( B \), o a ambos.                |
+| Intersección    | La intersección de dos conjuntos \( A \) y \( B \) es el conjunto que contiene todos los elementos que pertenecen tanto a \( A \) como a \( B \).           |
+| Complemento     | El complemento de un conjunto \( A \) con respecto a un conjunto universal \( U \) es el conjunto de todos los elementos en \( U \) que no están en \( A \). |
+| Conjunto vacío  | El conjunto vacío, denotado por \( \emptyset \) o \(\{\}\), es el conjunto que no contiene ningún elemento.                                                |
+| Subconjunto     | Un conjunto \( A \) es un subconjunto de otro conjunto \( B \) si todos los elementos de \( A \) también están en \( B \).                                    |
 
 Estos son solo algunos de los conceptos básicos en la teoría de conjuntos que se utilizan para definir y manipular conjuntos en diversos contextos matemáticos.
-
+<!-- 
 ### Relación entre la lógica de conjuntos y otras áreas de las matemáticas
 
 La lógica de conjuntos es fundamental en muchas áreas de las matemáticas, ya que proporciona un marco formal para la definición y manipulación de estructuras abstractas. Algunas de las áreas de las matemáticas en las que la lógica de conjuntos desempeña un papel importante incluyen:
@@ -118,7 +142,7 @@ La lógica de conjuntos es fundamental en muchas áreas de las matemáticas, ya 
 
 Además, la teoría de conjuntos proporciona la base para otras áreas de las matemáticas, como la teoría de números, la topología y la teoría de grafos.
 
-En resumen, la lógica de conjuntos es un componente fundamental de las matemáticas, proporcionando un marco formal para la definición y manipulación de conjuntos y estableciendo la base para muchas otras áreas de las matemáticas. La comprensión de los fundamentos de la teoría de conjuntos es esencial para abordar problemas matemáticos en una variedad de contextos.
+En resumen, la lógica de conjuntos es un componente fundamental de las matemáticas, proporcionando un marco formal para la definición y manipulación de conjuntos y estableciendo la base para muchas otras áreas de las matemáticas. La comprensión de los fundamentos de la teoría de conjuntos es esencial para abordar problemas matemáticos en una variedad de contextos. -->
 
 ### Relaciones y funciones
 
